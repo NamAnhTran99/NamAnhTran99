@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2177" height="373" viewBox="0 0 2177 373" role="img" aria-labelledby="title desc">
+  <title id="title">Nam Anh Tran profile header</title>
+  <desc id="desc">A320 FCU-inspired profile header with name, role, and focus.</desc>
+  <image href="shells/fcu_display_blank.png" x="0" y="0" width="2177" height="373" preserveAspectRatio="xMidYMid meet"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-weight="600" letter-spacing="1.2">
+    <text x="128" y="122" font-size="26" fill="#c98918">NAME</text>
+    <text x="128" y="207" font-size="40" fill="#f1b233">NAM ANH TRAN</text>
+
+    <text x="656" y="122" font-size="26" fill="#c98918">ROLE</text>
+    <text x="656" y="207" font-size="36" fill="#f1b233">FULL-STACK SOFTWARE ENGINEER</text>
+
+    <text x="1512" y="122" font-size="26" fill="#c98918">FOCUS</text>
+    <text x="1512" y="207" font-size="34" fill="#f1b233">APPLIED AI · ROBOTICS · GIS</text>
+  </g>
+</svg>

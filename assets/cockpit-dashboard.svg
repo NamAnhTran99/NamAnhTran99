@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Captain-side A320-inspired software portfolio</title>
+  <desc id="desc">The captain-side PFD and ND sit on the left of the cockpit composition. Upper and lower ECAM displays on the centre-right show portfolio projects, project detail and toolkit.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1c252a"/><stop offset="1" stop-color="#090d10"/></linearGradient>
+    <linearGradient id="display" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#101b20"/><stop offset="1" stop-color="#050c10"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2876a6"/><stop offset="0.49" stop-color="#2876a6"/><stop offset="0.5" stop-color="#e9f6f5"/><stop offset="0.515" stop-color="#866544"/><stop offset="1" stop-color="#4e3b29"/></linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="texture" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#a9dfe2" stroke-opacity=".035"/></pattern>
+  </defs>
+
+  <!-- Cockpit shell and captain-side glareshield -->
+  <rect width="1400" height="820" rx="18" fill="#030506"/>
+  <path d="M22 784V82Q22 42 62 42H1338Q1378 42 1378 82V784Q1378 804 1358 804H42Q22 804 22 784Z" fill="url(#panel)" stroke="#68777d" stroke-width="2"/>
+  <path d="M43 123L72 78H1110L1183 123V144H43Z" fill="#060a0c" stroke="#49575d" stroke-width="2"/>
+  <rect x="58" y="58" width="1008" height="46" rx="7" fill="#0d1316" stroke="#536167"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="78" fill="#8e9ba0" font-size="10" letter-spacing="2">CAPTAIN SIDE / PORTFOLIO DISPLAY</text>
+    <text x="82" y="95" fill="#e9f1f1" font-size="17" font-weight="700">NAM ANH TRAN [ TOM ]</text>
+    <text x="470" y="78" fill="#8e9ba0" font-size="10" letter-spacing="2">FULL-STACK SOFTWARE ENGINEER</text>
+    <text x="470" y="95" fill="#c6f0ec" font-size="15">APPLIED AI · ROBOTICS · GIS · WEB PLATFORMS</text>
+  </g>
+  <!-- FCU controls: silhouette only -->
+  <g transform="translate(1090 58)" fill="#161e22" stroke="#657277">
+    <rect width="250" height="46" rx="5"/><circle cx="32" cy="23" r="12"/><circle cx="83" cy="23" r="12"/><circle cx="134" cy="23" r="12"/><rect x="164" y="14" width="28" height="18" rx="2"/><rect x="203" y="14" width="28" height="18" rx="2"/>
+  </g>
+  <path d="M43 145H1357V778H43Z" fill="url(#texture)"/>
+
+  <!-- Captain PFD bezel -->
+  <rect x="62" y="165" width="293" height="292" rx="12" fill="#05090b" stroke="#819097" stroke-width="4"/>
+  <rect x="74" y="177" width="269" height="268" rx="4" fill="url(#display)" stroke="#2e4047"/>
+  <text x="88" y="199" fill="#5cd7dd" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">PFD · ABOUT</text>
+  <!-- PFD horizon gives the display its recognisable structure -->
+  <rect x="88" y="217" width="241" height="116" fill="url(#sky)"/>
+  <g fill="none" stroke="#f4faf9" stroke-width="2" stroke-linecap="round">
+    <path d="M94 275H323"/><path d="M130 255H287M150 241H267M167 229H250M150 295H267M130 309H287"/>
+    <path d="M209 264H184L172 275l12 11h25M209 264h25l12 11-12 11h-25"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="99" y="235" fill="#ffffff" font-size="11">NAM ANH TRAN</text>
+    <text x="99" y="322" fill="#ffe09b" font-size="10" letter-spacing="1">FORMER COMMERCIAL PILOT</text>
+    <text x="88" y="358" fill="#8ea6ad" font-size="10" letter-spacing="2">ROLE</text>
+    <text x="88" y="380" fill="#eef8f7" font-size="16" font-weight="700">Full-stack software engineer</text>
+    <text x="88" y="405" fill="#8ea6ad" font-size="10" letter-spacing="2">BACKGROUND</text>
+    <text x="88" y="426" fill="#cbdadc" font-size="13">ex-VNPT · Applied AI @ Deakin</text>
+  </g>
+
+  <!-- Captain ND bezel -->
+  <rect x="373" y="165" width="293" height="292" rx="12" fill="#05090b" stroke="#819097" stroke-width="4"/>
+  <rect x="385" y="177" width="269" height="268" rx="4" fill="url(#display)" stroke="#2e4047"/>
+  <text x="399" y="199" fill="#5cd7dd" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">ND · SKILLS AND EXPERIENCE</text>
+  <g transform="translate(520 302)" fill="none" stroke-linecap="round">
+    <circle r="94" stroke="#5fd6db" stroke-opacity=".46" stroke-width="2"/>
+    <circle r="60" stroke="#5fd6db" stroke-opacity=".25"/>
+    <path d="M0-104V104M-104 0H104M-74-74L74 74M74-74L-74 74" stroke="#5fd6db" stroke-opacity=".19"/>
+    <path d="M-61 52C-39 16-11 24 13-10S47-25 71-64" stroke="#63e0bf" stroke-width="4"/>
+    <circle cx="-61" cy="52" r="5" fill="#63e0bf"/><circle cx="13" cy="-10" r="5" fill="#6dc9ed"/><circle cx="71" cy="-64" r="5" fill="#ffc96b"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11">
+    <text x="405" y="249" fill="#63e0bf">Angular · .NET</text>
+    <text x="555" y="249" fill="#6dc9ed">Python · ML</text>
+    <text x="405" y="414" fill="#ffc96b">GIS · Docker · ROS 2</text>
+    <text x="593" y="414" fill="#eaf5f4" text-anchor="end">React · Node.js</text>
+  </g>
+
+  <!-- Centre ECAM stack: upper display -->
+  <rect x="732" y="144" width="554" height="276" rx="12" fill="#05090b" stroke="#819097" stroke-width="4"/>
+  <rect x="746" y="158" width="526" height="248" rx="4" fill="url(#display)" stroke="#2e4047"/>
+  <text x="766" y="184" fill="#5cd7dd" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">UPPER ECAM · FEATURED PROJECTS</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M766 198H1252" stroke="#2f4b51"/>
+    <rect x="766" y="214" width="486" height="46" rx="4" fill="#0d2421" stroke="#58d7ba" stroke-opacity=".75"/>
+    <circle cx="787" cy="237" r="5" fill="#63e0bf" filter="url(#glow)"/>
+    <text x="804" y="240" fill="#e7fffa" font-size="16" font-weight="700">Chasmata-2027</text><text x="1000" y="240" fill="#a7cbca" font-size="12">Mission control · telemetry · ECAM UI</text>
+    <rect x="766" y="272" width="486" height="46" rx="4" fill="#15162a" stroke="#919bff" stroke-opacity=".75"/>
+    <circle cx="787" cy="295" r="5" fill="#a1a5ff" filter="url(#glow)"/>
+    <text x="804" y="298" fill="#f1f1ff" font-size="16" font-weight="700">AURORA</text><text x="1000" y="298" fill="#bcc2e9" font-size="12">Self-hosted local AI developer tooling</text>
+    <rect x="766" y="330" width="486" height="46" rx="4" fill="#0c2029" stroke="#6abce0" stroke-opacity=".75"/>
+    <circle cx="787" cy="353" r="5" fill="#6dc9ed" filter="url(#glow)"/>
+    <text x="804" y="356" fill="#e8f8ff" font-size="16" font-weight="700">EVAT</text><text x="1000" y="356" fill="#b2d5e5" font-size="12">Electric Vehicle Adoption Tool · team project</text>
+  </g>
+
+  <!-- Centre ECAM stack: lower display -->
+  <rect x="732" y="440" width="554" height="274" rx="12" fill="#05090b" stroke="#819097" stroke-width="4"/>
+  <rect x="746" y="454" width="526" height="246" rx="4" fill="url(#display)" stroke="#2e4047"/>
+  <text x="766" y="480" fill="#5cd7dd" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">LOWER ECAM · PROJECT DETAIL AND TOOLKIT</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="766" y="497" width="228" height="118" rx="4" fill="#111b20" stroke="#42616a"/>
+    <text x="781" y="520" fill="#dcf5f4" font-size="14" font-weight="700">Guide My Eyes</text>
+    <text x="781" y="543" fill="#86a7ae" font-size="11">Android assistive prototype</text>
+    <text x="781" y="564" fill="#86a7ae" font-size="11">ARCore depth sensing</text>
+    <text x="781" y="585" fill="#86a7ae" font-size="11">TensorFlow Lite detection</text>
+    <rect x="1020" y="497" width="232" height="118" rx="4" fill="#111b20" stroke="#42616a"/>
+    <text x="1035" y="520" fill="#dcf5f4" font-size="14" font-weight="700">Selected contribution</text>
+    <text x="1035" y="543" fill="#86a7ae" font-size="11">Operator-facing interfaces</text>
+    <text x="1035" y="564" fill="#86a7ae" font-size="11">Real-time telemetry views</text>
+    <text x="1035" y="585" fill="#86a7ae" font-size="11">Data-driven application features</text>
+    <path d="M766 634H1252" stroke="#2f4b51"/>
+    <text x="766" y="657" fill="#8ea6ad" font-size="10" letter-spacing="2">TOOLKIT</text>
+    <text x="842" y="657" fill="#e4f1f1" font-size="13">TypeScript · Angular · .NET · Python · React · Node.js · MongoDB · Docker · ROS 2</text>
+    <text x="766" y="683" fill="#8ea6ad" font-size="10" letter-spacing="2">LINKEDIN</text>
+    <text x="842" y="683" fill="#63e0bf" font-size="13">linkedin.com/in/thomas-tran-anh</text>
+  </g>
+
+  <!-- Bezel buttons and the centre pedestal shape, without an F/O display -->
+  <g fill="#131b1f" stroke="#5c6b70">
+    <rect x="686" y="166" width="25" height="32" rx="3"/><rect x="686" y="207" width="25" height="32" rx="3"/><rect x="686" y="248" width="25" height="32" rx="3"/><rect x="686" y="289" width="25" height="32" rx="3"/><rect x="686" y="330" width="25" height="32" rx="3"/>
+    <rect x="1308" y="166" width="25" height="32" rx="3"/><rect x="1308" y="207" width="25" height="32" rx="3"/><rect x="1308" y="248" width="25" height="32" rx="3"/><rect x="1308" y="289" width="25" height="32" rx="3"/><rect x="1308" y="330" width="25" height="32" rx="3"/>
+    <rect x="686" y="463" width="25" height="32" rx="3"/><rect x="686" y="504" width="25" height="32" rx="3"/><rect x="686" y="545" width="25" height="32" rx="3"/><rect x="686" y="586" width="25" height="32" rx="3"/>
+    <rect x="1308" y="463" width="25" height="32" rx="3"/><rect x="1308" y="504" width="25" height="32" rx="3"/><rect x="1308" y="545" width="25" height="32" rx="3"/><rect x="1308" y="586" width="25" height="32" rx="3"/>
+  </g>
+  <path d="M62 735H1286L1336 779H32Z" fill="#0b1013" stroke="#56656b" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+    <rect x="92" y="751" width="218" height="19" rx="3" fill="#12322d" stroke="#63e0bf"/><text x="201" y="765" fill="#d6fff3">CHASMATA-2027</text>
+    <rect x="333" y="751" width="156" height="19" rx="3" fill="#20203a" stroke="#a1a5ff"/><text x="411" y="765" fill="#e4e5ff">AURORA</text>
+    <rect x="512" y="751" width="132" height="19" rx="3" fill="#102b37" stroke="#6dc9ed"/><text x="578" y="765" fill="#e1f7ff">EVAT</text>
+    <rect x="667" y="751" width="181" height="19" rx="3" fill="#302036" stroke="#e5a4e5"/><text x="757" y="765" fill="#ffe7ff">GUIDE MY EYES</text>
+  </g>
+</svg>
