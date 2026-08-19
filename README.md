@@ -21,7 +21,7 @@
 
 ### Chasmata — lunar rover mission control
 
-An Angular mission-control interface for Deakin’s 2027 lunar rover, built for Pilot and Arm Ops workflows. Its design is inspired by the Airbus glass cockpit philosophy: a calm symbolic overview during normal operation and consistent colour semantics for operational state.
+Chasmata is an Angular mission-control redesign for Deakin’s 2027 lunar rover, shaped by my commercial pilot background and inspired by A320 cockpit design philosophy. It uses a deliberate attention hierarchy: the FMA communicates high-level operational state, ECAM presents alerts and procedures, and System Display pages provide subsystem detail. The redesign structures the operator experience around dedicated Pilot and Arm Ops workflows, mutually exclusive Drive and Arm control, and shared Gimbal priority.
 
 <ul>
   <li><strong>Operators:</strong> Pilot and Arm Ops workflows</li>
@@ -30,8 +30,6 @@ An Angular mission-control interface for Deakin’s 2027 lunar rover, built for 
   <li><strong>Controls:</strong> gamepad input with mutually exclusive Drive and Arm modes</li>
   <li><strong>Integration:</strong> Angular, TypeScript, ROSbridge, ROSLIB.js, and MJPEG camera streams</li>
 </ul>
-
-<sub>Currently in migration from the legacy GUI, with the Angular implementation being validated against the rover’s ROS, camera, controller, and safety interfaces.</sub>
 
 <p align="center"><strong>Pilot mission control</strong></p>
 
@@ -56,7 +54,7 @@ An Angular mission-control interface for Deakin’s 2027 lunar rover, built for 
 </p>
 
 <p>
-  <a href="https://github.com/deakin-robotics/Chasmata-2027">View repository →</a>
+  <a href="https://github.com/deakin-robotics/Chasmata-2027/tree/main/gui">View GUI repository →</a>
 </p>
 
 ---
