@@ -108,10 +108,10 @@ An explainable EV charging-station recommendation feature for EVAT, where I serv
 
 ### AURORA — local AI development assistant
 
-A self-hosted Windows PowerShell AI coding assistant that runs Qwen3:14B locally through Ollama, adds web search through SearXNG, and exposes private remote access through Tailscale Serve.
+A self-hosted Windows PowerShell AI coding assistant that runs gpt-oss:20b locally through Ollama, uses tool-enabled web search through SearXNG, and exposes private remote access through Tailscale Serve.
 
 <ul>
-  <li><strong>Model:</strong> Qwen3:14B via Ollama</li>
+  <li><strong>Model:</strong> gpt-oss:20b via Ollama</li>
   <li><strong>Context:</strong> 40,960 tokens with Flash Attention</li>
   <li><strong>Memory:</strong> q8_0 KV-cache quantization</li>
   <li><strong>Search:</strong> local SearXNG tool integration</li>
@@ -121,6 +121,8 @@ A self-hosted Windows PowerShell AI coding assistant that runs Qwen3:14B locally
 <p align="center">
   <img src="assets/aurora/aurora-demo.gif" width="100%" alt="AURORA local AI assistant using web search and returning a grounded answer" />
 </p>
+
+<p align="center"><sub>Fun fact: The name "AURORA" was inspired by APOLLO from <em>Alien: Isolation</em> :D</sub></p>
 
 <p>
   <a href="https://github.com/NamAnhTran99/AURORA">View repository →</a>
