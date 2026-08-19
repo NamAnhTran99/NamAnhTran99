@@ -76,6 +76,14 @@ An explainable EV charging-station recommendation feature for EVAT, where I serv
 
 <br />
 
+<p align="center"><strong>Charger recommendation feature demo</strong></p>
+
+<p align="center">
+  <img src="assets/evat/recommendation-demo.gif" width="720" alt="EVAT charger recommendation feature demo" />
+</p>
+
+<br />
+
 <p align="center"><strong>Existing EVAT services and recommendation inputs</strong></p>
 
 <p align="center">
