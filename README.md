@@ -63,7 +63,7 @@ Chasmata is an Angular mission-control redesign for Deakin Competitive Robotics 
 
 ### EVAT — explainable EV charging recommendations
 
-An explainable EV charging-station recommendation feature for EVAT, where I served as technical lead. I designed the feature architecture and API contracts, coordinated ownership across a six-member team, implemented the Python FastAPI recommendation service, and led end-to-end integration across the frontend, Node.js backend, persistence layer, and recommendation service.
+An explainable EV charging-station recommendation feature for EVAT, where I served as technical lead. I designed the feature architecture and API contracts, coordinated ownership across a seven-member team, implemented the Python FastAPI recommendation service, and led end-to-end integration across the frontend, Node.js backend, persistence layer, and recommendation service.
 
 <ul>
   <li><strong>Leadership:</strong> proposed the feature, secured Product Owner approval, designed the system flow, and coordinated team ownership</li>
