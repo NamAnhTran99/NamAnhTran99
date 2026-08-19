@@ -19,9 +19,9 @@
 
 <a id="chasmata"></a>
 
-### Chasmata — lunar rover mission control
+### Chasmata — Australian Rover Challenge mission control
 
-Chasmata is an Angular mission-control redesign for Deakin’s 2027 lunar rover, shaped by my commercial pilot background and inspired by A320 cockpit design philosophy. It uses a deliberate attention hierarchy: the FMA communicates high-level operational state, ECAM presents alerts and procedures, and System Display pages provide subsystem detail. The redesign structures the operator experience around dedicated Pilot and Arm Ops workflows, mutually exclusive Drive and Arm control, and shared Gimbal priority.
+Chasmata is an Angular mission-control redesign for Deakin Competitive Robotics Club’s 2027 rover for the Australian Rover Challenge, where I serve as GUI lead. It is shaped by my commercial pilot background and inspired by A320 cockpit design philosophy. It uses a deliberate attention hierarchy: the FMA communicates high-level operational state, ECAM presents alerts and procedures, and System Display pages provide subsystem detail. The redesign structures the operator experience around dedicated Pilot and Arm Ops workflows, mutually exclusive Drive and Arm control, and shared Gimbal priority.
 
 <ul>
   <li><strong>Operators:</strong> Pilot and Arm Ops workflows</li>
@@ -158,7 +158,7 @@ An end-to-end machine-learning project that estimates residential property price
 
 <a id="guide-my-eyes"></a>
 
-### Guide My Eyes — audio-based vision assistance
+### Guide My Eyes — bachelor thesis in audio-based vision assistance
 
 An Android accessibility application that combines ARCore depth sensing and on-device object detection to help visually impaired users perceive nearby obstacles through sound.
 
