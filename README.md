@@ -137,7 +137,7 @@ A self-hosted Windows PowerShell AI coding assistant that runs gpt-oss:20b local
 An end-to-end machine-learning project that estimates residential property prices from structured features and exposes the trained model through a Flask web application.
 
 <ul>
-  <li><strong>Dataset:</strong> 151 property listings across Werribee, Point Cook, and Tarneit</li>
+  <li><strong>Dataset:</strong> manually collected and structured 151 property listings from Werribee, Point Cook and Tarneit, using AI-assisted extraction followed by manual verification and cleaning.</li>
   <li><strong>Models:</strong> Linear Regression, Random Forest, and Gradient Boosting comparison</li>
   <li><strong>Result:</strong> Random Forest achieved a held-out R² of 0.7266 with approximately $96.6k MAE</li>
   <li><strong>Deployment:</strong> exported scikit-learn pipeline served through a Flask prediction form</li>
