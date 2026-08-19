@@ -3,7 +3,7 @@
   <desc id="desc">A320 FCU-inspired profile header with name, role, and focus.</desc>
   <rect width="2177" height="373" fill="#111418" />
   <rect x="1" y="1" width="2175" height="371" rx="14" ry="14" fill="none" stroke="#62a8e5" stroke-width="2" opacity="0.45" />
-  <path d="M590 55V318 M1587 55V318" fill="none" stroke="#303844" stroke-width="2" opacity="0.9" />
+  <path d="M543 55V318 M1400 55V318" fill="none" stroke="#303844" stroke-width="2" opacity="0.9" />
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-weight="600" letter-spacing="1.2">
     <text x="128" y="122" font-size="26" fill="#c98918">NAME</text>
@@ -12,7 +12,7 @@
     <text x="656" y="122" font-size="26" fill="#c98918">ROLE</text>
     <text x="656" y="207" font-size="36" fill="#f1b233">FULL-STACK SOFTWARE ENGINEER</text>
 
-    <text x="1600" y="122" font-size="26" fill="#c98918">FOCUS</text>
-    <text x="1600" y="207" font-size="34" fill="#f1b233">APPLIED AI · ROBOTICS · GIS</text>
+    <text x="1510" y="122" font-size="26" fill="#c98918">FOCUS</text>
+    <text x="1510" y="207" font-size="34" fill="#f1b233">APPLIED AI · ROBOTICS · GIS</text>
   </g>
 </svg>

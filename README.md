@@ -33,13 +33,26 @@ An Angular mission-control interface for Deakin’s 2027 lunar rover, built for 
 
 <sub>Currently in migration from the legacy GUI, with the Angular implementation being validated against the rover’s ROS, camera, controller, and safety interfaces.</sub>
 
-<p align="center">
-  <img src="assets/chasmata/pilot.png" width="49%" alt="Chasmata pilot dashboard with camera views and rover controls" />
-  <img src="assets/chasmata/arm_ops.png" width="49%" alt="Chasmata arm operations dashboard" />
-</p>
+<p align="center"><strong>Pilot mission control</strong></p>
 
 <p align="center">
-  <img src="assets/chasmata/ecam.png" width="280" alt="Chasmata ECAM mission-control display" />
+  <img src="assets/chasmata/pilot.png" width="100%" alt="Chasmata pilot dashboard with camera views and rover controls" />
+</p>
+
+<br />
+
+<p align="center"><strong>Arm Ops mission control</strong></p>
+
+<p align="center">
+  <img src="assets/chasmata/arm_ops.png" width="100%" alt="Chasmata arm operations dashboard" />
+</p>
+
+<br />
+
+<p align="center"><strong>ECAM alerts and procedures</strong></p>
+
+<p align="center">
+  <img src="assets/chasmata/ecam.png" width="600" alt="Chasmata ECAM mission-control display" />
 </p>
 
 <p>
@@ -56,22 +69,28 @@ An explainable EV charging-station recommendation feature for EVAT, where I serv
 
 <ul>
   <li><strong>Leadership:</strong> proposed the feature, secured Product Owner approval, designed the system flow, and coordinated team ownership</li>
-  <li><strong>Recommendation:</strong> filters unreachable stations, ranks candidates with fixed-weight scoring, and returns explanations</li>
+  <li><strong>Recommendation:</strong> filters unreachable stations, ranks candidates with a trained preference model, and returns explanations</li>
+  <li><strong>Personalization:</strong> combines predicted selection probability with each user’s recent selection history to nudge rankings toward their preferences</li>
+  <li><strong>Fallback:</strong> retains fixed-weight scoring when the trained model is unavailable</li>
   <li><strong>Integration:</strong> resolved authorization, schema, routing-data, and recommendation-history issues across services</li>
   <li><strong>Workflow:</strong> local pull-request validation and GitHub Actions build checks for the frontend and backend</li>
 </ul>
+
+<br />
+
+<p align="center"><strong>Existing EVAT services and recommendation inputs</strong></p>
 
 <p align="center">
   <img src="assets/evat/existing-evat-services.png" width="100%" alt="EVAT existing services and data sources used by the charger recommendation feature" />
 </p>
 
-<p align="center"><sub>Existing EVAT services and recommendation inputs</sub></p>
+<br />
+
+<p align="center"><strong>New recommendation pipeline, ranking logic, and persistence</strong></p>
 
 <p align="center">
   <img src="assets/evat/new-recommendation-pipeline.png" width="100%" alt="EVAT new recommendation pipeline with ranking, persistence, and station selection" />
 </p>
-
-<p align="center"><sub>New recommendation pipeline, ranking logic, and persistence</sub></p>
 
 <p>
   <a href="https://github.com/Chameleon-company/EVAT">View repository →</a>
