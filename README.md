@@ -28,7 +28,7 @@ Chasmata is the software system for Deakin Competitive Robotics Club’s 2027 Au
   <li><strong>Control:</strong> gamepad input, mutually exclusive Drive and Arm control, shared Gimbal priority, MoveIt 2 arm Position control, and direct Manual arm control</li>
   <li><strong>ROS integration:</strong> typed telemetry and shared interface contracts for rover state, control, and alerts</li>
   <li><strong>BaseStation:</strong> hosted Angular interface, ROSbridge connections, MoveIt 2, shared ECAM services, and MediaMTX WebRTC/WHEP camera streams</li>
-  <li><strong>Development:</strong> C++ mock rover and integration tests for GUI, ROS, arm trajectories, and camera recovery</li>
+  <li><strong>Rover:</strong> ROS 2 software for control, telemetry, system state, and communication with the BaseStation</li>
 </ul>
 
 <p align="center"><strong>Driver mission control</strong></p>
