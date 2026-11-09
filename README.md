@@ -21,20 +21,20 @@
 
 ### Chasmata — Australian Rover Challenge mission control
 
-Chasmata is an Angular mission-control redesign for Deakin Competitive Robotics Club’s 2027 rover for the Australian Rover Challenge, where I serve as GUI lead. It is shaped by my commercial pilot background and inspired by A320 cockpit design philosophy. It uses a deliberate attention hierarchy: the FMA communicates high-level operational state, ECAM presents alerts and procedures, and System Display pages provide subsystem detail. The redesign structures the operator experience around dedicated Pilot and Arm Ops workflows, mutually exclusive Drive and Arm control, and shared Gimbal priority.
+Chasmata is the software system for Deakin Competitive Robotics Club’s 2027 Australian Rover Challenge rover, where I am Rover Software Engineering Lead. I coordinate architecture and integration across the GUI, Control, and Autonomous teams. I designed and implemented the browser-based mission-control interface and contributed to the ROS interfaces, BaseStation services, arm-control integration, camera pipeline, and mock rover. The operator interface is shaped by my commercial pilot background and inspired by A320 cockpit design philosophy. Its FMA communicates high-level operational state, ECAM presents alerts and procedures, and System Display pages provide subsystem detail.
 
 <ul>
-  <li><strong>Operators:</strong> Pilot and Arm Ops workflows</li>
-  <li><strong>Displays:</strong> Pilot and Arm Ops mission control, ECAM alerts and procedures, and System Display pages</li>
-  <li><strong>Telemetry:</strong> rover state, subsystem health, cameras, and recovery snapshots</li>
-  <li><strong>Controls:</strong> gamepad input with mutually exclusive Drive and Arm modes</li>
-  <li><strong>Integration:</strong> Angular, TypeScript, ROSbridge, ROSLIB.js, and MJPEG camera streams</li>
+  <li><strong>Mission control:</strong> Driver and Arm Operator dashboards, FMA, ECAM alerts and procedures, and System Display pages</li>
+  <li><strong>Control:</strong> gamepad input, mutually exclusive Drive and Arm control, shared Gimbal priority, MoveIt 2 arm Position control, and direct Manual arm control</li>
+  <li><strong>ROS integration:</strong> typed telemetry and shared interface contracts for rover state, control, and alerts</li>
+  <li><strong>BaseStation:</strong> hosted Angular interface, ROSbridge connections, MoveIt 2, shared ECAM services, and MediaMTX WebRTC/WHEP camera streams</li>
+  <li><strong>Development:</strong> C++ mock rover and integration tests for GUI, ROS, arm trajectories, and camera recovery</li>
 </ul>
 
-<p align="center"><strong>Pilot mission control</strong></p>
+<p align="center"><strong>Driver mission control</strong></p>
 
 <p align="center">
-  <img src="assets/chasmata/pilot.png" width="100%" alt="Chasmata pilot dashboard with camera views and rover controls" />
+  <img src="assets/chasmata/pilot.png" width="100%" alt="Chasmata Driver dashboard with camera views and rover controls" />
 </p>
 
 <br />
@@ -143,8 +143,6 @@ An end-to-end machine-learning project that estimates residential property price
   <li><strong>Deployment:</strong> exported scikit-learn pipeline served through a Flask prediction form</li>
 </ul>
 
-<sub>Educational demonstration using a small, time-specific dataset from three Melbourne suburbs.</sub>
-
 <p align="center">
   <img src="assets/housing/app-form.png" width="49%" alt="Melbourne Housing Price Predictor input form" />
   <img src="assets/housing/app-prediction.png" width="49%" alt="Melbourne Housing Price Predictor estimated price result" />
@@ -169,13 +167,12 @@ An Android accessibility application that combines ARCore depth sensing and on-d
   <li><strong>Evaluation:</strong> tested on a real Android device across corridor and street scenarios, including latency and battery measurements</li>
 </ul>
 
-<sub>Research prototype; not clinically validated or a replacement for established mobility aids.</sub>
-
 <p align="center">
   <img src="assets/DemoGuideMyEyes.gif" width="420" alt="Guide My Eyes AR depth prototype demo" />
 </p>
 
 <p>
   <a href="https://github.com/NamAnhTran99/GuideMyEyes">View repository →</a>
-  · <a href="docs/DATN-Guide-My-Eyes.pdf">Read thesis (Vietnamese) →</a>
+  </br>
+  <a href="docs/DATN-Guide-My-Eyes.pdf">Read thesis (Vietnamese) →</a>
 </p>
